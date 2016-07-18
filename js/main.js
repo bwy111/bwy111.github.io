@@ -29,35 +29,26 @@ $(function(){
         if($(document).scrollTop()>windowH*1.5){
             $('.point1').animate({opacity:1},249,function(){
                 $('.line1').animate({width:286},249,function(){
-                    $('.year1').animate({top:145,opacity:1},249,function(){
-                        $('.com1').animate({top:192,opacity:1},249,function(){
-                            $('.job1').animate({top:230,opacity:1},249,function(){
-                                $('.line4').animate({width:246},249,function(){
-                                    $('.con1').animate({top:280,opacity:1},249,function(){
-                                        $('.point2').animate({opacity:1},249,function(){
-                                            $('.line2').animate({width:286},249,function(){
-                                                $('.year2').animate({top:145,opacity:1},249,function(){
-                                                    $('.com2').animate({top:192,opacity:1},249,function(){
-                                                        $('.job2').animate({top:230,opacity:1},249,function(){
-                                                            $('.line5').animate({width:246},249,function(){
-                                                                $('.con2').animate({top:280,opacity:1},249,function(){
-                                                                    $('.point3').animate({opacity:1},249,function(){
-                                                                        $('.line3').animate({width:286},249,function(){
-                                                                            $('.year3').animate({top:145,opacity:1},249,function(){
-                                                                                $('.com3').animate({top:192,opacity:1},249,function(){
-                                                                                    $('.job3').animate({top:230,opacity:1},249,function(){
-                                                                                        $('.line6').animate({width:246},249,function(){
-                                                                                            $('.con3').animate({top:280,opacity:1},249,function(){
-                                                                                                $('.ask').animate({opacity:1},1249);
-                                                                                            })
-                                                                                        })
-                                                                                    })
-                                                                                })
-                                                                            })
-                                                                        })
-                                                                    })
-                                                                })
-                                                            })
+                    $('.year1').animate({top:155,opacity:1},249,function(){
+                        $('.job1').animate({top:240,opacity:1},249);
+                        $('.line4').animate({width:246},249);
+                        $('.con1').animate({top:290,opacity:1},249);
+                        $('.com1').animate({top:202,opacity:1},249,function(){
+                            $('.point2').animate({opacity:1},249,function(){
+                                $('.line2').animate({width:286},249,function(){
+                                    $('.year2').animate({top:155,opacity:1},249,function(){
+                                        $('.job2').animate({top:240,opacity:1},249);
+                                        $('.line5').animate({width:246},249);
+                                        $('.con2').animate({top:290,opacity:1},249);
+                                        $('.com2').animate({top:202,opacity:1},249,function(){
+                                            $('.point3').animate({opacity:1},249,function(){
+                                                $('.line3').animate({width:286},249,function(){
+                                                    $('.year3').animate({top:155,opacity:1},249,function(){
+                                                        $('.job3').animate({top:240,opacity:1},249);
+                                                        $('.line6').animate({width:246},249);
+                                                        $('.con3').animate({top:290,opacity:1},249);
+                                                        $('.com3').animate({top:202,opacity:1},249,function(){
+                                                            $('.ask').animate({opacity:1},1249);
                                                         })
                                                     })
                                                 })

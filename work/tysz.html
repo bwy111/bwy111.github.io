@@ -2,18 +2,18 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title></title>
+    <title>涂鸦时钟</title>
     <style>
         #ul{
             margin:100px auto;
             overflow: hidden;
-            width: 200px;
+            width: 520px;
             padding:0;
-            height: 35px;
+            height: 80px;
         }
         li{
-            width: 24px;
-            height: 35px;
+            width: 65px;
+            height: 80px;
             float: left;
             list-style: none;
             font-size:30px;
@@ -25,7 +25,6 @@
             left:0;
         }
     </style>
-    <script src="move.js"></script>
     <script>
         function toDou(a){
             if(a<10){
@@ -41,7 +40,7 @@
                 var oDate=new Date();
                 var str=toDou(oDate.getHours())+toDou(oDate.getMinutes())+toDou(oDate.getSeconds());
                 for(var i=0;i<aImg.length;i++){
-                    move(aImg[i],{top:-35*str.charAt(i)},{duration:1000,easing:'ease-out'});
+                    aImg[i].src='img8/'+str.charAt(i)+'.jpg'
                 }
             }
             clock();
@@ -52,14 +51,14 @@
 </head>
 <body>
 <ul id="ul">
-    <li><img src="num.png" alt=""/></li>
-    <li><img src="num.png" alt=""/></li>
+    <li><img src="img8/0.jpg" alt=""/></li>
+    <li><img src="img8/0.jpg" alt=""/></li>
     <li>:</li>
-    <li><img src="num.png" alt=""/></li>
-    <li><img src="num.png" alt=""/></li>
+    <li><img src="img8/0.jpg" alt=""/></li>
+    <li><img src="img8/0.jpg" alt=""/></li>
     <li>:</li>
-    <li><img src="num.png" alt=""/></li>
-    <li><img src="num.png" alt=""/></li>
+    <li><img src="img8/0.jpg" alt=""/></li>
+    <li><img src="img8/0.jpg" alt=""/></li>
 </ul>
 </body>
 </html>

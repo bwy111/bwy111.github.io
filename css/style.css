@@ -21,7 +21,14 @@ a{
     z-index: -100;
     left:0;
     top:0;
-    background:url("../img/290885.jpg") no-repeat center;
+    background:#000;
+}
+#bg-video p{
+    width: 100%;
+    font-size:40px;
+    color:#fff;
+    margin:0 auto;
+    text-align: center;
 }
 #homepage{
     width: 100%;
@@ -90,7 +97,7 @@ a{
 }
 .navlist li{
     height: 50px;
-    font-family: "Microsoft YaHei", "ËÎÌו", "Segoe UI", "Lucida Grande", Helvetica, Arial, sans-serif, FreeSans, Arimo;
+    font-family: "Microsoft YaHei", "Segoe UI", "Lucida Grande", Helvetica, Arial, sans-serif, FreeSans, Arimo;
     font-size:20px;
     padding-left:70px;
     line-height:50px;
@@ -116,7 +123,7 @@ a{
     font-family:'ExLightCom',"Microsoft YaHei";
     color:#fff;
     position:absolute;
-    top:25%;
+    top:32%;
     left:39%;
     opacity: 0.9;
     filter:alpha(opacity=90);
@@ -126,7 +133,7 @@ a{
     font-family:'ExLightCom',"Microsoft YaHei";
     color:#fff;
     position:absolute;
-    top:46%;
+    top:52%;
     left:39%;
     opacity: 0.9;
     filter:alpha(opacity=90);
@@ -138,7 +145,7 @@ a{
     opacity: 0.8;
     filter:alpha(opacity=80);
     position:fixed;
-    left:-200px;
+    left:0px;
     top:0;
     z-index: 99;
 }
@@ -155,6 +162,7 @@ a{
     left:210px;
     z-index: 9;
     cursor: pointer;
+    display: none;
 }
 .to-left{
     position:absolute;
@@ -162,7 +170,7 @@ a{
     left:210px;
     z-index: 9;
     cursor: pointer;
-    display: none;
+
 }
 .next{
     position:absolute;
@@ -190,8 +198,8 @@ a{
     height: 200px;
     border:1px solid green;
     position:absolute;
-    left:20%;
-    top:33%;
+    left:23%;
+    top:37%;
     overflow: hidden;
 
 }
@@ -205,8 +213,8 @@ a{
     height: 200px;
     border:1px solid green;
     position:absolute;
-    left:45%;
-    top:33%;
+    left:48%;
+    top:37%;
     overflow: hidden;
 
 }
@@ -220,8 +228,8 @@ a{
     height: 200px;
     border:1px solid green;
     position:absolute;
-    left:70%;
-    top:33%;
+    left:73%;
+    top:37%;
     overflow: hidden;
 
 }
@@ -236,8 +244,8 @@ a{
     color:#666;
     position:absolute;
     text-align: center;
-    top:6%;
-    left:46%;
+    top:9%;
+    left:49%;
 }
 .tit4{
     font-size:60px;
@@ -245,16 +253,17 @@ a{
     color:#fff;
     position:absolute;
     text-align: center;
-    top:6%;
-    left:46%;
+    top:9%;
+    left:49%;
 }
 .tit3-bottom{
     height: 0;
     width: 800px;
     border-bottom:2px solid #1abc9c;
     position:absolute;
-    top:23%;
-    left:26%;
+    margin-left:-400px;
+    top:26%;
+    left:59%;
 }
 .opabox{
     width: 100%;
@@ -307,8 +316,8 @@ a{
     border:1px solid #1abc9c;
     background:#fff;
     position:absolute;
-    top:74%;
-    left:79%;
+    top:79%;
+    left:83%;
     -webkit-transition: .3s all ease ;
     -moz-transition: .1s all ease ;
     -ms-transition: .1s all ease ;
@@ -374,7 +383,7 @@ a{
      border-right:2px solid #1abc9c;
      position:absolute;
      top:41%;
-     left:15%;
+     left:18%;
  }
 .der2{
     width: 300px;
@@ -392,17 +401,15 @@ a{
     position:absolute;
     opacity: 0;
     filter:alpha(opacity=0);
+    top:185px;
 }
 .point1{
-    top:175px;
     left:320px;
 }
 .point2{
-    top:175px;
     left:620px;
 }
 .point3{
-    top:175px;
     left:920px;
 }
 .line1,.line2,.line3{
@@ -410,17 +417,15 @@ a{
     height: 0px;
     border-bottom:4px solid #1abc9c;
     position:absolute;
+    top:192px;
 }
 .line1{
-    top:182px;
     left:335px;
 }
 .line2{
-    top:182px;
     left:635px;
 }
 .line3{
-    top:182px;
     left:935px;
 }
 .year1,.year2,.year3{
@@ -474,7 +479,7 @@ a{
     height: 0;
     border-bottom:2px solid #fff;
     position:absolute;
-    top:270px;
+    top:280px;
 }
 .con1,.con2,.con3{
     font-family: "Microsoft YaHei", "ËÎÌו", "Segoe UI", "Lucida Grande", Helvetica, Arial, sans-serif, FreeSans, Arimo;
@@ -491,18 +496,20 @@ a{
     font-size:80px;
     color:#1abc9c;
     position:absolute;
-    top:134px;
+    top:144px;
     left:1231px;
     opacity: 0;
     filter:alpha(opacity=0);
 }
 .contact{
+    width: 620px;
     font-family: "Microsoft YaHei", "ËÎÌו", "Segoe UI", "Lucida Grande", Helvetica, Arial, sans-serif, FreeSans, Arimo;
     font-size:30px;
     color:#666;
     position:absolute;
+    margin-left:-310px;
     top:30%;
-    left:35%;
+    left:62%;
     letter-spacing: 5px;
     line-height:50px;
 }
@@ -516,8 +523,9 @@ a{
     width: 600px;
     height: 100px;
     position:absolute;
+    margin-left:-300px;
     top:76%;
-    left:36%;
+    left:62%;
 }
 .wechat,.qq,.weibo,.ditu{
     position:absolute;
