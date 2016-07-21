@@ -399,50 +399,50 @@ a{
     position:absolute;
     opacity: 0;
     filter:alpha(opacity=0);
-    top:185px;
+    top:30px;
 }
 .point1{
-    left:320px;
+    left:30px;
 }
 .point2{
-    left:620px;
+    left:330px;
 }
 .point3{
-    left:920px;
+    left:630px;
 }
 .line1,.line2,.line3{
     width: 0;
     height: 0px;
     border-bottom:4px solid #1abc9c;
     position:absolute;
-    top:192px;
+    top:37px;
 }
 .line1{
-    left:335px;
+    left:45px;
 }
 .line2{
-    left:635px;
+    left:345px;
 }
 .line3{
-    left:935px;
+    left:645px;
 }
 .year1,.year2,.year3{
     font-family: "Raleway", Arial, sans-serif;
     font-size:28px;
     color:#fff;
     position:absolute;
-    top:115px;
+    top:-30px;
     opacity: 0;
     filter:alpha(opacity=0);
 }
 .year1,.com1,.con1,.line4{
-    left:346px;
+    left:56px;
 }
 .year2,.com2,.con2,.line5{
-    left:646px;
+    left:356px;
 }
 .year3,.com3,.con3,.line6{
-    left:946px;
+    left:656px;
 }
 .com1,.com2,.com3{
     font-family: "Microsoft YaHei", "ËÎÌו", "Segoe UI", "Lucida Grande", Helvetica, Arial, sans-serif, FreeSans, Arimo;
@@ -450,7 +450,7 @@ a{
     color:#fff;
     font-weight: bold;
     position:absolute;
-    top:222px;
+    top:70px;
     opacity: 0;
     filter:alpha(opacity=0);
 }
@@ -459,32 +459,32 @@ a{
     font-size:22px;
     color:#fff;
     position:absolute;
-    top:260px;
+    top:100px;
     opacity: 0;
     filter:alpha(opacity=0);
 }
 .job1{
-    left:477px;
+    left:220px;
 }
 .job2{
-    left:850px;
+    left:540px;
 }
 .job3{
-    left:1018px;
+    left:728px;
 }
 .line4,.line5,.line6{
     width: 0;
     height: 0;
     border-bottom:2px solid #fff;
     position:absolute;
-    top:280px;
+    top:125px;
 }
 .con1,.con2,.con3{
     font-family: "Microsoft YaHei", "ËÎÌו", "Segoe UI", "Lucida Grande", Helvetica, Arial, sans-serif, FreeSans, Arimo;
     font-size:18px;
     color:#fff;
     position:absolute;
-    top:310px;
+    top:170px;
     line-height:28px;
     opacity: 0;
     filter:alpha(opacity=0);
@@ -494,8 +494,8 @@ a{
     font-size:80px;
     color:#1abc9c;
     position:absolute;
-    top:144px;
-    left:1231px;
+    top:-10px;
+    left:930px;
     opacity: 0;
     filter:alpha(opacity=0);
 }
@@ -510,6 +510,14 @@ a{
     left:62%;
     letter-spacing: 5px;
     line-height:50px;
+}
+.contact1{
+    width: 1000px;
+    height: 400px;
+    position:absolute;
+    margin-left:-500px;
+    top:30%;
+    left:60%;
 }
 .contact span{
     font-size:30px;
