@@ -84,14 +84,14 @@ $(function(){
     var Timer1=setInterval(toRightMove,2000);
     $('.to-right').click(function(){
         clearInterval(Timer1);
-        $('.nav').stop().animate({left:0},700,function(){
+        $('.nav').stop().animate({left:0},300,function(){
             $('.to-right').hide();
             $('.to-left').show();
         });
     })
     $('.to-left').click(function(){
         clearInterval(Timer1);
-        $('.nav').stop().animate({left:-200},700,function(){
+        $('.nav').stop().animate({left:-200},300,function(){
             $('.to-left').hide();
             $('.to-right').show();
             Timer1=setInterval(toRightMove,2000);
@@ -103,27 +103,27 @@ $(function(){
         })
     }
     var Timer2=setInterval(toNextMove,2000);
-    $('.next').click(function(){
-        $('html,body').stop().animate({scrollTop:windowH+3},1000);
-    });
-    $('.next2').click(function(){
-        $('html,body').stop().animate({scrollTop:(windowH+3)*2},1000);
-    });
-    $('.next3').click(function(){
-        $('html,body').stop().animate({scrollTop:(windowH+3)*3},1000);
-    });
+    //$('.next').click(function(){
+    //    $('html,body').stop().animate({scrollTop:windowH+3},1000);
+    //});
+    //$('.next2').click(function(){
+    //    $('html,body').stop().animate({scrollTop:(windowH+3)*2},1000);
+    //});
+    //$('.next3').click(function(){
+    //    $('html,body').stop().animate({scrollTop:(windowH+3)*3},1000);
+    //});
 
     $('.navlist').children().eq(0).click(function(){
-        $('html,body').stop().animate({scrollTop:0},1000);
+        $('html,body').stop().animate({scrollTop:0},300);
     });
     $('.navlist').children().eq(1).click(function(){
-        $('html,body').stop().animate({scrollTop:windowH+3},1000);
+        $('html,body').stop().animate({scrollTop:windowH+3},300);
     });
     $('.navlist').children().eq(2).click(function(){
-        $('html,body').stop().animate({scrollTop:(windowH+3)*2},1000);
+        $('html,body').stop().animate({scrollTop:(windowH+3)*2},300);
     });
     $('.navlist').children().eq(3).click(function(){
-        $('html,body').stop().animate({scrollTop:(windowH+3)*3},1000);
+        $('html,body').stop().animate({scrollTop:(windowH+3)*3},300);
     });
 
     $('#page2 a div').hover(
